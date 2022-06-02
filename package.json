@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-hls",
+  "version": "1.0.0",
+  "description": "HLS streaming service with Node.js, Express, HLS",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/server.js"
+  },
+  "keywords": [],
+  "author": "Lucas Kim",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.18.2",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "hls-server": "^1.5.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
+}

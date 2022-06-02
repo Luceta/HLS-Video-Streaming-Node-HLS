@@ -36,5 +36,8 @@ If you have Video file, you delete Videos directory and make videos directory in
 And then, using mp4 media file make file with `video.mp4` in `src/videos`.
 
 move to `src` directory , run `node ffmpeg.js`.
+it makes m3u8 files.
 
 run `npm start`.
+
+you can open the developer tools on the web and check `network` panel and you can check it!
